@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     # Arahkan ke Repo ke-3 (Khusus YAML)
-    repoURL: https://github.com/karadaval/todotask-k8s.git
+    repoURL: https://github.com/FrederickYapiter2411/k8s-stocker.git
     targetRevision: HEAD
     path: dev
   destination:
@@ -18,4 +18,5 @@ spec:
       prune: true
       selfHeal: true
     syncOptions:
+
       - CreateNamespace=true
