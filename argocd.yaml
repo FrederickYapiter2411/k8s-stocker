@@ -9,7 +9,7 @@ spec:
     # Arahkan ke Repo ke-3 (Khusus YAML)
     repoURL: https://github.com/FrederickYapiter2411/k8s-stocker.git
     targetRevision: HEAD
-    path: dev
+    path: .
   destination:
     server: https://kubernetes.default.svc
     namespace: todotask-complete
