@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
       - name: fe-app
-        image: docker.io/frederickyapiter/fe-app:latest
+        image: frederickyapiter/fe-app:latest
         env:
           - name: REACT_APP_BACKEND  # Nama variabel tergantung framework kamu
-            value: "http://localhost:5000"
+            value: "http://be-app-service:5000"
         resources:
           limits:
             cpu: "250m"
