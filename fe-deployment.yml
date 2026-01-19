@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: fe-app
-        image: frederickyapiter/fe-app:b776e71ee58cee38b149ee003d57814154cc85a7
+        image: frederickyapiter/fe-app:2f0976f111d64852a5b499068e93c9fcc9cfbf58
         imagePullPolicy: Always
         env:
           - name: REACT_APP_BACKEND  # Nama variabel tergantung framework kamu
