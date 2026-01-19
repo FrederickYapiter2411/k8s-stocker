@@ -15,6 +15,7 @@ spec:
       containers:
       - name: be-app
         image: docker.io/frederickyapiter/be-app:latest
+        imagePullPolicy: Always
         resources:
           limits:
             memory: "128Mi"
