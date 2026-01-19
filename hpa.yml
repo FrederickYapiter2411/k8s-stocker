@@ -4,7 +4,7 @@ metadata:
   name: fe-app-hpa
 spec:
   scaleTargetRef:
-    apiVersion: stocker-fe/v1
+    apiVersion: apps/v1
     kind: Deployment
     name: fe-app
   minReplicas: 2
@@ -27,7 +27,7 @@ metadata:
   name: be-app-hpa
 spec:
   scaleTargetRef:
-    apiVersion: stocker-be/v1
+    apiVersion: apps/v1
     kind: Deployment
     name: be-app
   minReplicas: 2
